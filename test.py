@@ -22,7 +22,7 @@ config['device'] = device
 
 
 class AmpData():
-    def __init__(self, df, tokenizer_name='./prot_bert_bfd', max_len=300):
+    def __init__(self, df, tokenizer_name='Rostlab/prot_bert_bfd', max_len=300):
        
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, do_lower_case=False)
         self.max_len = max_len
