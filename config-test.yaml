@@ -3,7 +3,7 @@ batch_size: 32
 vocab_size: 25
 task: amp  
 debug: false
-model_path: './amp-0106_1727'
+model_path: './checkpoint'
 
 
 network:
